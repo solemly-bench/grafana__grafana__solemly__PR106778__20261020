@@ -1,6 +1,6 @@
 module github.com/grafana/grafana/pkg/build
 
-go 1.24.4
+go 1.26.0
 
 // Override docker/docker to avoid:
 // go: github.com/drone-runners/drone-runner-docker@v1.8.2 requires
@@ -27,7 +27,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.36.0 // @grafana/grafana-backend-group
 	golang.org/x/crypto v0.39.0 // indirect; @grafana/grafana-backend-group
 	golang.org/x/net v0.41.0 // indirect; @grafana/oss-big-tent @grafana/partner-datasources
-	golang.org/x/oauth2 v0.30.0 // @grafana/identity-access-team
+	golang.org/x/oauth2 v0.37.0 // @grafana/identity-access-team
 	golang.org/x/sync v0.15.0 // @grafana/alerting-backend
 	golang.org/x/text v0.26.0 // indirect; @grafana/grafana-backend-group
 	golang.org/x/time v0.11.0 // indirect; @grafana/grafana-backend-group
